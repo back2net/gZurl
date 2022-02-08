@@ -16,7 +16,9 @@ https://akmalov.com/blog/zabbix-open-winbox/
 edit defines.inc.php 
 nano /usr/share/zabbix/include/defines.inc.php
 Ctrl+W - find: ZBX_URI_VALID_SCHEMES - add gzurl - Save and Exit
-*or add gzurl to:*
+
+**or add gzurl to:**
+
 Administration -> General -> Other -> Valid URI schemes
 
 
@@ -34,7 +36,10 @@ Where **xxx**
 
 **examples:** 
 gzurl://ssh myServerName root
+
 gzurl://wbox 192.168.88.1 admin 12345
-You can use zabbix macro:
+
+You can also use zabbix macro:
+
 gzurl://wbox {HOST.IP} admin 12345
 
