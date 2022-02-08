@@ -21,16 +21,16 @@ Administration -> General -> Other -> Valid URI schemes
 
 
 5. Zabbix -> map -> host - add URLS format
-gzurl://**x** ipaddress login password
+gzurl://**xxx** ipaddress login password
 
->Where **x**
->>wbox - winbox.exe(ipAddr, login, password);
+Where **xxx**
+* wbox - winbox.exe(ipAddr, login, password);
 
->>rdp - mstsc(ipAddr);
+* rdp - mstsc(ipAddr);
 
->>vnc - vncviewer.exe(ipAddr);
+* vnc - vncviewer.exe(ipAddr);
 
->>ssh - putty.exe(ipAddr, login, password(optional));
+* ssh - putty.exe(ipAddr, login, password(optional));
 
 **examples:** 
 gzurl://ssh myServerName root
