@@ -5,9 +5,9 @@ Forked from:
 https://akmalov.com/blog/zabbix-open-winbox/
 
 **Manual:**
-1. Copy gZurl.exe -> C:\@\
+1. Copy gZurl.exe -> C:\\@\
 
-2. Place winbox.exe, vncviewer.exe, putty.exe -> C:\@\
+2. Place winbox.exe, vncviewer.exe, putty.exe -> C:\\@\
 
 3. Run  gzurl.reg 
 
