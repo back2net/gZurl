@@ -35,6 +35,7 @@ Where **xxx**
 * ssh - putty.exe(ipAddr, login, password(optional));
 
 **examples:** 
+
 gzurl://ssh myServerName root
 
 gzurl://wbox 192.168.88.1 admin 12345
