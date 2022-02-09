@@ -28,7 +28,7 @@ func main() {
 	var cmd *exec.Cmd
 
 	switch args[0] {
-	case "wbox":
+	case "wbx":
 		cmd = exec.Command(WINBOX, ipAddr, login, password)
 	case "rdp":
 		cmd = exec.Command(RDP, "/v:", ipAddr)
