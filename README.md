@@ -26,7 +26,7 @@ Administration -> General -> Other -> Valid URI schemes
 gzurl://**xxx** ipaddress login password
 
 Where **xxx**
-* wbox - winbox.exe(ipAddr, login, password);
+* wbx - winbox.exe(ipAddr, login, password);
 
 * rdp - mstsc(ipAddr);
 
@@ -38,9 +38,9 @@ Where **xxx**
 
 gzurl://ssh myServerName root
 
-gzurl://wbox 192.168.88.1 admin 12345
+gzurl://wbx 192.168.88.1 admin 12345
 
 You can also use zabbix macro:
 
-gzurl://wbox {HOST.IP} admin 12345
+gzurl://wbx {HOST.IP} admin 12345
 
