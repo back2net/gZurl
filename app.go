@@ -36,6 +36,8 @@ func main() {
 		cmd = exec.Command(PUTTY, login+"@"+ipAddr, "-pw", password)
 	case "vnc":
 		cmd = exec.Command(VNC, ipAddr)
+	case "tln":
+		cmd = exec.Command(PUTTY, "telnet://"+ipAddr+":23")
 	}
 
 	err := cmd.Start()

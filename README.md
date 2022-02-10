@@ -1,5 +1,5 @@
 # gZURL (Go Zabbix URL)
-open winbox, ssh, vnc, rdp on the zabbix map
+open winbox, ssh, vnc, rdp, telnet on the zabbix map
 
 Forked from:
 https://akmalov.com/blog/zabbix-open-winbox/
@@ -34,11 +34,15 @@ Where **xxx**
 
 * ssh - putty.exe(ipAddr, login, password(optional));
 
+* tln - putty.exe(ipAddr);
+
 **examples:** 
 
 gzurl://ssh myServerName root
 
 gzurl://wbx 192.168.88.1 admin 12345
+
+gzurl://tln 10.1.3.4
 
 You can also use zabbix macro:
 
